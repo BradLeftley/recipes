@@ -13,7 +13,7 @@
   <navbar.content>
     <navbar.nav as |nav|>
       <nav.item>
-        <nav.link-to @route="index">Home</nav.link-to>
+        <nav.link-to @route="recipes">Recipes</nav.link-to>
       </nav.item>
     </navbar.nav>
   </navbar.content>
@@ -21,29 +21,6 @@
 
 <div class="row">
     <div class="container">
-        <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
-</div>
+        {{outlet}}
     </div>
-    <div class="container">
-        <div class="card" style="width: 18rem;">
-  <img src="https://www.recipetineats.com/wp-content/uploads/2018/07/Spaghetti-Bolognese.jpg?w=500&h=375&crop=1" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
 </div>
-    </div>
-
-
-</div>
-{{outlet}}

@@ -1,0 +1,11 @@
+{{page-title "Recipes"}}
+    <div class="">
+        <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+    </div>
+        {{#each model as |recipe|}}
+            <Card @recipe={{recipe}}/>
+            {{/each}}
+            
+{{outlet}}

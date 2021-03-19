@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;">
+  <img src="{{@recipe.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{@recipe.name}}</h5>
+    <p class="card-text">{{@recipe.description}}</p>
+  </div>
+  <div class="card-body">
+      <LinkTo @route="recipe" @model={{@recipe.id}}>First Photo Ever</LinkTo>
+    <a href="#" class="card-link">View</a>
+  </div>
+</div>
+{{log @recipe}}
