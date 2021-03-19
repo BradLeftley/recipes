@@ -5,8 +5,7 @@
     <p class="card-text">{{@recipe.description}}</p>
   </div>
   <div class="card-body">
-      <LinkTo @route="recipe" @model={{@recipe.id}}>First Photo Ever</LinkTo>
-    <a href="#" class="card-link">View</a>
+      <LinkTo @route="recipe" @model={{@recipe.id}}>View Recipe</LinkTo>
   </div>
 </div>
 {{log @recipe}}
