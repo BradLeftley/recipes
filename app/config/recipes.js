@@ -13,7 +13,7 @@ export default [{
     '85g fresh white breadcrumbs',
     '2 tbsp barbecue sauce , plus 4 tbsp for the beans',
     '2 x 400g cans cannellini beans',
-    '1-2 tbsp roughly chopped parsley]'],
+    '1-2 tbsp roughly chopped parsley'],
     steps: [
         'Heat oven to 180C/160C fan/gas 4. Heat the oil in a large frying pan and cook the onion for 8-10 mins until softened. Add the garlic, Worcestershire sauce and 2 tsp tomato purée, and stir until combined. Set aside to cool.',
         'Put the turkey mince, egg, breadcrumbs and cooled onion mix in a large bowl and season well. Mix everything to combine, then shape into a rectangular loaf and place in a large roasting tin. Spread 2 tbsp barbecue sauce over the meatloaf and bake for 30 mins.',

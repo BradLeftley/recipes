@@ -1,7 +1,37 @@
 {{page-title "Recipe"}}
 {{log "RECIPE" @model}}
 <div class="container">
-{{@model.name}}
+{{log @model}}
+<div class="card mb-3">
+  <img src="{{@model.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{@model.name}}</h5>
+    <p class="card-text">{{@model.description}}</p>
+    {{!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+  </div>
+</div>
+<div class="card">
+  <BsTab as |tab|>
+  <tab.pane @title="Ingredients">
+      <ul class="list-group">
+
+   {{#each @model.ingredients as |ingredient|}}
+     <li class="list-group-item">{{ingredient}}</li>
+   {{/each}}
+   </ul>
+  </tab.pane>
+  <tab.pane @title="Method">
+    {{#each @model.steps as |step index|}}
+    <div class="" style="margin: 1rem">
+        <h4>Step {{index-increment index}}</h4>
+        <p>{{step}}</p>
+    </div>
+
+    {{/each}}
+  </tab.pane>
+</BsTab>
+</div>
+  
 </div>
 
 {{outlet}}
