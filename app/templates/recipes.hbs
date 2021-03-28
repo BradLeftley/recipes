@@ -1,13 +1,14 @@
 {{page-title "Recipes"}}
-    <div class="col-md-12">
-        <div class="input-group mb-3">
-  <input type="text" value={{value}} class="form-control" placeholder="Search" aria-label="search" aria-describedby="basic-addon1">
-</div>
+<div class="col-md-12">
+    <div class="input-group mb-3">
+        <Input type="text" @value={{this.value}} class="form-control" placeholder="Search" aria-label="search"
+            aria-describedby="basic-addon1" />
     </div>
-        {{#each model as |recipe|}}
-        <div class="col-md-4">
-            <Card @recipe={{recipe}}/>
-        </div>
-            
-        {{/each}}
+</div>
+{{#each data as |recipe|}}
+<div class="col-md-4">
+    <Card @recipe={{recipe}} />
+</div>
+
+{{/each}}
 {{outlet}}
