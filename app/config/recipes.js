@@ -20,4 +20,11 @@ export default [{
         'Meanwhile, drain 1 can of beans only, then pour both cans into a large bowl. Add the remaining barbecue sauce and tomato purée. Season and set aside.',
         'When the meatloaf has had its initial cooking time, scatter the beans around the outside and bake for 15 mins more until the meatloaf is cooked through and the beans are piping hot. Scatter over the parsley and serve the meatloaf in slices.'
 ]
-}]
+},
+{
+    id: 2,
+    name: 'Red pesto pasta',
+    description: 'Red pesto pasta',
+    image: 'https://assets.bonappetit.com/photos/5cf033fa89bca61b2a011926/1:1/w_2560%2Cc_limit/red-pesto-2.jpg'
+}
+]
