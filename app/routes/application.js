@@ -4,4 +4,7 @@ export default class ApplicationRoute extends Route {
     setupController(){
         // this.transitionTo('recipes')
     }
+    beforeModel(){
+         this.transitionTo('recipes')
+    }
 }
