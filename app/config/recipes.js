@@ -45,5 +45,29 @@ export default [{
         'Add the chicken pieces and mix thoroughly. Cover and gently simmer for 20mins on a medium heat. Stirring ocassionally until the chicken is cooked. 5mins before the end of the cooking time add a little water if more sauce is required.',
         'Garnish with corriander and serve.'
 ]
+},
+{
+    id: 4,
+    name: 'Chicken Tikka Wrap',
+    description: 'Chicken tikka wrap',
+    image: 'https://pbs.twimg.com/media/EoFt8CSXMAIvl5i.jpg',
+    ingredients: [
+    '140g chick breast, cut into bite size pieces',
+    '30g yoghurt',
+    '1 1/2 tsp tikka masala spice mix',
+    '10g ginger, peeled and grated',
+    '140g chicken',
+    '1 wholeweat pitta bread or wrap',
+    '30g yoghurt for wrap',
+    '30g mango chutney',
+    '1/2 tomato sliced',
+    '1/4 cucumber sliced',
+    'small bunch of corainder chopped'
+],
+    steps: [
+        'Put the chicken into a bowl with yoghurt, ginger, tikka spice mix and oil. Toss everything together, cover then chill',
+        'Preheat the grill to high and line a baking tray with foil. Lay the chicken on the tray and grill for 7-8 mins, turning once during cooking, untill lightly charred. Set aside to cool.',
+        'Warm the wrap for a few seconds in the microwave to soften then spread the yoghurt and mango chutney. Top with the tomato, cucuumber, coriander and chicken. Wrap tightly, slide in half and get stuck in.'
+]
 }
 ]
