@@ -26,5 +26,24 @@ export default [{
     name: 'Red pesto pasta',
     description: 'Red pesto pasta',
     image: 'https://assets.bonappetit.com/photos/5cf033fa89bca61b2a011926/1:1/w_2560%2Cc_limit/red-pesto-2.jpg'
+},
+{
+    id: 3,
+    name: 'Weightwatchers Curry',
+    description: 'Weightwatchers curry',
+    image: 'https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_572,h_322/v1/img/recipes/40/94/56/4gBqnxOzQRWnuGmQaYlv_untitled-4826.jpg',
+    ingredients: [
+    '1 medium onion , finely chopped',
+    '300g tomatoes',
+    '80g curry paste',
+    '150g plain yoghurt',
+    '500g chicken',
+    '1 tablespoons coriander'],
+    steps: [
+        'Heat a large, lidded non stick frying pan and spary with cooking spray. Saute the onions untill soft',
+        'Add the tomatoes and curry paste, stir together and allow to simmer for 2-3mins. Gradually stir in the yoghurt to create a thich sauce base. Dont add all at once or it may split.',
+        'Add the chicken pieces and mix thoroughly. Cover and gently simmer for 20mins on a medium heat. Stirring ocassionally until the chicken is cooked. 5mins before the end of the cooking time add a little water if more sauce is required.',
+        'Garnish with corriander and serve.'
+]
 }
 ]
